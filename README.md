@@ -36,7 +36,6 @@
 | Type | Link |
 | --- | --- |
 | Full product walkthrough | [Add video link](https://example.com/prototype-video) |
-| Helmet + SOS hardware simulation | [Add video link](https://example.com/helmet-demo) |
 
 ---
 
@@ -44,16 +43,14 @@
 
 | Screen | Preview Path |
 | --- | --- |
-| Landing page | `docs/screenshots/01-landing-hero.png` |
-| SOS victim flow | `docs/screenshots/02-sos-victim.png` |
-| Incoming helper popup | `docs/screenshots/03-helper-popup.png` |
-| Helper - On the way | `docs/screenshots/04-helper-on-the-way.png` |
-| Helper - At hospital | `docs/screenshots/05-helper-at-hospital.png` |
-| Home dashboard | `docs/screenshots/06-dashboard-home.png` |
-| Care booking | `docs/screenshots/07-care-booking.png` |
-| Trips tabs | `docs/screenshots/08-trips-tabs.png` |
-| Safety hub | `docs/screenshots/09-safety-hub.png` |
-| Profile and rewards | `docs/screenshots/10-profile-rewards.png` |
+| Landing page | <img width="448" height="872" alt="image" src="https://github.com/user-attachments/assets/e3febc39-a861-4a25-9f58-379419d7ae34" /> <img width="462" height="875" alt="image" src="https://github.com/user-attachments/assets/565aa0b6-dc4a-4a79-939e-f641028ecd42" /> |
+| SOS victim flow | <img width="465" height="871" alt="image" src="https://github.com/user-attachments/assets/07b4b19f-7aee-47af-8510-a4a2f98f92a5" /> |
+| Incoming helper popup | <img width="443" height="872" alt="image" src="https://github.com/user-attachments/assets/b7be49ea-a384-45b4-9cf2-052a18272956" /> |
+| Helper - On the way | <img width="466" height="870" alt="image" src="https://github.com/user-attachments/assets/76f8bdf7-5241-40e1-b4be-68d49c072d54" /> |
+| Home dashboard | <img width="453" height="871" alt="image" src="https://github.com/user-attachments/assets/d8f4811a-dfdd-4b57-b35b-3a1f50b4c271" /> |
+| Care booking | <img width="471" height="872" alt="image" src="https://github.com/user-attachments/assets/8da83ad2-dbf5-4c9a-b5b4-b39211bd0fe2" /> <img width="446" height="872" alt="image" src="https://github.com/user-attachments/assets/81b3e2c6-508c-4a59-b3b0-afd4b86dcd0e" /> |
+| Trips tabs | <img width="449" height="872" alt="image" src="https://github.com/user-attachments/assets/1b1cd92a-c557-4d50-98e2-dfd506f720bf" /> |
+| Profile and rewards | <img width="433" height="875" alt="image" src="https://github.com/user-attachments/assets/89904a09-0400-472f-974e-219da360932d" /> |
 
 ---
 
