@@ -1,192 +1,188 @@
 # 🚑 Arogya Raksha
 
-## ✨ Project Snapshot
-- 🩺 Emergency + hospital app in one flow
-- ⚡ Mobile-first UI
-- 🔴 Live SOS + helper assignment
-- 🏥 Doctor booking + records vault
-- 🎁 Community reward points
+> **Emergency response + hospital care platform**  
+> One mobile-first app for SOS rescue, helper coordination, doctor booking, safety tools, and health records.
 
-## 🎬 Prototype Video Space
-- ▶️ Main walkthrough: [Add video link here](https://example.com/prototype-video)
-- 🪖 Helmet demo: [Add helmet video link here](https://example.com/helmet-demo)
+---
 
-## 📸 Screenshot Space
-- `docs/screenshots/01-landing-hero.png` - Landing hero
-- `docs/screenshots/02-sos-victim.png` - SOS victim screen
-- `docs/screenshots/03-helper-popup.png` - Incoming helper popup
-- `docs/screenshots/04-helper-on-the-way.png` - Helper on-the-way
-- `docs/screenshots/05-helper-at-hospital.png` - Helper at-hospital
-- `docs/screenshots/06-dashboard-home.png` - Home dashboard
-- `docs/screenshots/07-care-booking.png` - Care booking page
-- `docs/screenshots/08-trips-tabs.png` - Trips tabs
-- `docs/screenshots/09-safety-hub.png` - Safety hub
-- `docs/screenshots/10-profile-rewards.png` - Profile + rewards
+## 📑 Table of Contents
+- [Project Overview](#-project-overview)
+- [Prototype Videos](#-prototype-videos)
+- [Screenshots](#-screenshots)
+- [Core Feature Set](#-core-feature-set)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Environment Setup](#-environment-setup)
+- [Available Scripts](#-available-scripts)
 
-## 🧭 App Navigation
-- 🏠 Home
-- 🚕 Trips
-- 🛡️ Safety
-- 👤 Profile
-- 🚨 Center SOS action
+---
 
-## 🚨 SOS (Victim) Features
-- 10s SOS countdown
-- One-tap SOS trigger
-- Helmet/crash flow support
-- Auto helper search
-- Single helper acceptance only
-- Helper details shown:
-  - Name
-  - Age
-  - Short address
-  - ETA
-  - Distance
-- Victim details shared to helper:
-  - Name
-  - Age
-  - Short address
-  - Contact
-- Live map + route
-- Alert sent summary
-- Safety guide card
-- Need-to-talk support card
-- Feeling/mood check card
+## ✨ Project Overview
 
-## 🙋 Helper Side Features
-- Incoming SOS popup
-- Quick accept flow
-- Auto route to help screen
-- On the way tab
-- At hospital tab
-- Victim info card
-- Live ETA updates
-- Distance guard logic
-- Arrived-state handling
-- Hospital notify panel
-- Success state copy:
-  - Successfully notified
-  - Preparing for treatment
-- Rescue completion flow
-- Points reward flow
+- 🆘 Instant SOS and helper dispatch model
+- 🗺️ Live map tracking with ETA and distance updates
+- 🏥 Department-based hospital and doctor booking
+- 🗂️ Health Vault for prescriptions and reports
+- 🛡️ Safety suite (Medical ID + Safety Circle)
+- 🧾 Trips history (rides/helped/earned)
+- 🎁 Points and community contribution flows
+- 📱 Mobile-style experience across all screen sizes
 
-## 🏠 Home Features
+---
+
+## 🎬 Prototype Videos
+
+| Type | Link |
+| --- | --- |
+| Full product walkthrough | [Add video link](https://example.com/prototype-video) |
+| Helmet + SOS hardware simulation | [Add video link](https://example.com/helmet-demo) |
+
+---
+
+## 📸 Screenshots
+
+| Screen | Preview Path |
+| --- | --- |
+| Landing page | `docs/screenshots/01-landing-hero.png` |
+| SOS victim flow | `docs/screenshots/02-sos-victim.png` |
+| Incoming helper popup | `docs/screenshots/03-helper-popup.png` |
+| Helper - On the way | `docs/screenshots/04-helper-on-the-way.png` |
+| Helper - At hospital | `docs/screenshots/05-helper-at-hospital.png` |
+| Home dashboard | `docs/screenshots/06-dashboard-home.png` |
+| Care booking | `docs/screenshots/07-care-booking.png` |
+| Trips tabs | `docs/screenshots/08-trips-tabs.png` |
+| Safety hub | `docs/screenshots/09-safety-hub.png` |
+| Profile and rewards | `docs/screenshots/10-profile-rewards.png` |
+
+---
+
+## 🧩 Core Feature Set
+
+### 🚨 SOS & Emergency Flow
+- 10-second SOS countdown
+- Crash/helmet-triggered emergency path
+- One-helper acceptance lock (single responder model)
+- Mutual profile sharing: name, age, short address, ETA, distance
+- Live victim-helper map tracking
+- SOS progress states with actionable cards
+- Emergency contact and support-oriented UX blocks
+
+### 🙋 Helper Experience
+- Nearby SOS popup intake
+- Fast accept and redirect to response interface
+- On-the-way + at-hospital dual workflow
+- Victim details and route intelligence
+- Hospital notification panel
+- Success state: "Successfully notified, preparing for treatment"
+- Rescue completion and points reward flow
+
+### 🏠 Home Dashboard
 - Helmet status card
-- Partner hospital block
-- Department browse block
-- Quick actions block
-- Community impact strip
+- Partner hospital discovery
+- Department browsing
+- Quick actions section
+- Community impact highlights
 
-## ⚡ Quick Actions
-- Report accident
-- Call ambulance
-- Share live location
-- Safety circle
-
-## 🏥 Care / Booking Features
-- Department-wise discovery
-- Hospital listing
-- Doctor listing
-- Doctor profile details
-- Slot picker
+### 🩺 Care & Booking
+- Department -> hospital -> doctor navigation
+- Detailed doctor cards and profiles
+- Slot selection
 - Reason-for-visit input
-- Payment bar
-- Google Pay option
-- Demo pay option
-- Pay-at-hospital option
-- Booking confirmation flow
-- Appointments listing
+- Payment experience (including Google Pay flow options)
+- Appointment lifecycle UI
 
-## 🧾 Trips Features
-- Rides tab
-- Helped history tab
-- Earned tab
-- Day-wise movement grouping
-- Help rescue history cards
-- Points/earnings view
+### 🧾 Trips & Rewards
+- Rides tab (movement history grouping)
+- Helped tab (rescue history)
+- Earned tab (points summary)
 
-## 🛡️ Safety Features
-- Safety hub screen
-- Medical ID screen
-- Safety Circle screen
-- Emergency support shortcuts
+### 🛡️ Safety & Health Records
+- Safety hub access
+- Medical ID module
+- Safety Circle contacts module
+- Health Vault uploads and retrieval
 
-## 🗂️ Health Data Features
-- Health Vault storage
-- Prescription upload
-- Report upload
-- Record access anytime
+### 👤 Account & Portals
+- Profile details and medical fields
+- Emergency contacts and address data
+- Role-based portals: doctor, hospital, admin
 
-## 👤 Profile Features
-- Personal profile
-- Medical fields
-- Saved addresses
-- Emergency contacts
-- Points and reward summary
+---
 
-## 🧑‍⚕️ Special Portals
-- Doctor portal route (`/doctor`)
-- Hospital portal route (`/hospital`)
-- Admin route (`/admin`)
+## 🛠️ Tech Stack
 
-## 🔌 Integrations
-- Firebase Auth
-- Firestore
-- Firebase Storage
-- Cloud Functions
-- Google Maps
-- Google Places
-- Google Directions/ETA logic
-- Google Pay (test/prod mode)
+| Layer | Technology |
+| --- | --- |
+| Frontend | React, TypeScript, Vite |
+| UI | Tailwind CSS, Framer Motion, Lucide Icons |
+| Auth | Firebase Authentication |
+| Database | Cloud Firestore |
+| Storage | Firebase Storage |
+| Backend | Firebase Cloud Functions |
+| Maps & Location | Google Maps APIs (Places, directions/ETA logic) |
+| Payments | Google Pay (test + production-ready modes) |
+| Workspace | npm workspaces |
 
-## 🧱 Data + Logic Highlights
-- SOS request model
-- Assignment model
-- Participant brief model
-- One-helper transaction lock
-- Realtime assignment updates
-- Helper location streaming
+---
 
-## 🖥️ Tech Stack
-- React
-- TypeScript
-- Vite
-- Tailwind CSS
-- Framer Motion
-- Firebase
+## 🏗️ Project Structure
 
-## 📁 Important Project Paths
-- `src/screens/public/LandingPage.tsx`
-- `src/screens/app/DashboardPage.tsx`
-- `src/screens/app/SosPage.tsx`
-- `src/screens/app/HelpPage.tsx`
-- `src/screens/app/TripsPage.tsx`
-- `src/screens/app/care/CareBookPage.tsx`
-- `src/components/IncomingSosOverlay.tsx`
-- `src/components/HospitalAlertPanel.tsx`
-- `src/data/sos.ts`
-- `src/data/helmet.ts`
-- `src/data/user.ts`
-- `functions/`
+```text
+Uber Hospital and Emergency/
+├── src/
+│   ├── components/        # Reusable UI and flow components
+│   ├── data/              # Firestore/data-layer logic
+│   ├── screens/
+│   │   ├── public/        # Landing and public-facing pages
+│   │   └── app/           # Authenticated application screens
+│   ├── shell/             # App layouts and wrappers
+│   └── lib/               # Shared client utilities
+├── functions/             # Firebase Cloud Functions workspace
+├── docs/                  # Documentation and screenshot assets
+├── .env.example           # Client environment variable template
+└── package.json           # Root workspace scripts
+```
 
-## ⚙️ Run Locally
-- `npm install`
-- `npm run dev`
+---
 
-## 🔐 Env Setup
-- Copy `.env.example` -> `.env.local`
-- Fill required Firebase keys
-- Fill Maps keys
-- Keep sensitive server keys in `functions` env only
+## 🚀 Getting Started
 
-## 🧪 Build Commands
-- `npm run build`
-- `npm run build:functions`
-- `npm run serve:functions`
+```bash
+npm install
+npm run dev
+```
 
-## ✅ Status
-- Mobile-first layout active
-- SOS + helper flow active
-- Care booking active
-- Trips tabs active
-- Safety module active
+---
+
+## 🔐 Environment Setup
+
+```bash
+cp .env.example .env.local
+```
+
+- Fill Firebase client configuration
+- Fill Maps configuration
+- Keep server-only secrets in Cloud Functions environment
+- Do not commit private keys
+
+---
+
+## 📜 Available Scripts
+
+```bash
+# Start development server
+npm run dev
+
+# Build frontend
+npm run build
+
+# Preview production build
+npm run preview
+
+# Build cloud functions workspace
+npm run build:functions
+
+# Serve cloud functions locally
+npm run serve:functions
+```
