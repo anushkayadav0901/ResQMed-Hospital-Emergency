@@ -152,16 +152,24 @@ npm run dev
 
 ---
 
-🔑 Demo Login Credentials
+## 🔑 Demo Login Credentials
 
-For quick testing and demo access, use the following Firebase-stored login credentials:
+For quick testing and demo access, use these Firebase-stored credentials:
 
-📱 Phone Number	🔐 OTP / Password
-9876543210	999999
-8765432109	888888
-6302347560	630234
+<div align="center">
 
-These demo credentials are stored in Firebase Authentication / Firestore and are intended only for testing purposes.
+| 📱 Phone Number | 🔐 OTP / Password |
+|:---:|:---:|
+| `9876543210` | `999999` |
+| `8765432109` | `888888` |
+| `6302347560` | `630234` |
+
+</div>
+
+> ⚠️ These demo credentials are provided only for testing and presentation purposes.
+
+
+
 
 ## 🔐 Environment Setup
 
